@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle Electrical Systems - Entry Level 3</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1><i class="fas fa-car-battery"></i> Vehicle Electrical Systems</h1>
+            <p class="subtitle">Entry Level 3 - Unit 3902-005</p>
+        </div>
+    </header>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress-bar" id="progressBar"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <div class="container">
+            <button class="nav-btn active" data-section="intro">
+                <i class="fas fa-home"></i> Introduction
+            </button>
+            <button class="nav-btn" data-section="safety">
+                <i class="fas fa-shield-alt"></i> Safety
+            </button>
+            <button class="nav-btn" data-section="components">
+                <i class="fas fa-cogs"></i> Components
+            </button>
+            <button class="nav-btn" data-section="tools">
+                <i class="fas fa-tools"></i> Tools
+            </button>
+            <button class="nav-btn" data-section="procedures">
+                <i class="fas fa-tasks"></i> Procedures
+            </button>
+            <button class="nav-btn" data-section="quiz">
+                <i class="fas fa-question-circle"></i> Quiz
+            </button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            
+            <!-- Introduction Section -->
+            <section id="intro" class="content-section active">
+                <h2><i class="fas fa-info-circle"></i> Introduction to Vehicle Electrical Systems</h2>
+                
+                <div class="card">
+                    <h3>What You'll Learn</h3>
+                    <ul class="learning-objectives">
+                        <li><i class="fas fa-check"></i> Follow approved and safe procedures</li>
+                        <li><i class="fas fa-check"></i> Identify major electrical components</li>
+                        <li><i class="fas fa-check"></i> Use appropriate tools and equipment</li>
+                        <li><i class="fas fa-check"></i> Carry out basic removal and replacement activities</li>
+                        <li><i class="fas fa-check"></i> Recognize and report vehicle damage</li>
+                    </ul>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Introduction to Automotive Electrical Systems</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/SpC16c5IYx4" 
+                                title="Automotive Electrical Basics" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card highlight">
+                    <h3><i class="fas fa-graduation-cap"></i> Course Details</h3>
+                    <p><strong>Unit:</strong> 3902-005 - Introduction to Vehicle Electrical Systems</p>
+                    <p><strong>Level:</strong> Entry Level 3</p>
+                    <p><strong>Credit Value:</strong> 5</p>
+                    <p><strong>GLH:</strong> 38 hours</p>
+                    <p><strong>Assessment:</strong> Practical tasks with verbal questioning</p>
+                </div>
+
+                <div class="interactive-element">
+                    <h3><i class="fas fa-lightbulb"></i> Did You Know?</h3>
+                    <div class="fact-card">
+                        <p>Modern vehicles can have over 1 mile (1.6 km) of electrical wiring and more than 100 individual circuits!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Safety Section -->
+            <section id="safety" class="content-section">
+                <h2><i class="fas fa-shield-alt"></i> Health & Safety</h2>
+                
+                <div class="card danger">
+                    <h3><i class="fas fa-exclamation-triangle"></i> Important Safety Information</h3>
+                    <p>Working with vehicle electrical systems requires careful attention to safety. Always follow these guidelines:</p>
+                </div>
+
+                <div class="card">
+                    <h3>Personal Protective Equipment (PPE)</h3>
+                    <div class="ppe-grid">
+                        <div class="ppe-item">
+                            <i class="fas fa-hard-hat fa-3x"></i>
+                            <h4>Safety Glasses</h4>
+                            <p>Protect eyes from sparks and debris</p>
+                        </div>
+                        <div class="ppe-item">
+                            <i class="fas fa-hand-sparkles fa-3x"></i>
+                            <h4>Gloves</h4>
+                            <p>Insulated gloves when working with electricity</p>
+                        </div>
+                        <div class="ppe-item">
+                            <i class="fas fa-shoe-prints fa-3x"></i>
+                            <h4>Safety Boots</h4>
+                            <p>Steel toe caps for foot protection</p>
+                        </div>
+                        <div class="ppe-item">
+                            <i class="fas fa-vest fa-3x"></i>
+                            <h4>Overalls</h4>
+                            <p>Protect clothing and body from hazards</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Vehicle Protective Equipment (VPE)</h3>
+                    <ul class="safety-list">
+                        <li><i class="fas fa-check-circle"></i> Wing covers to protect paintwork</li>
+                        <li><i class="fas fa-check-circle"></i> Seat covers to keep interior clean</li>
+                        <li><i class="fas fa-check-circle"></i> Floor mats to protect carpets</li>
+                        <li><i class="fas fa-check-circle"></i> Steering wheel covers</li>
+                    </ul>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Workshop Safety</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/SZ7NZKKvLGo" 
+                                title="Automotive Workshop Safety" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card warning">
+                    <h3><i class="fas fa-exclamation-circle"></i> Key Safety Hazards</h3>
+                    <div class="hazard-list">
+                        <div class="hazard-item">
+                            <i class="fas fa-bolt"></i>
+                            <div>
+                                <h4>Electrical Shock</h4>
+                                <p>Always disconnect battery before working on electrical systems</p>
+                            </div>
+                        </div>
+                        <div class="hazard-item">
+                            <i class="fas fa-fire"></i>
+                            <div>
+                                <h4>Fire Risk</h4>
+                                <p>Short circuits can cause fires - keep fire extinguisher nearby</p>
+                            </div>
+                        </div>
+                        <div class="hazard-item">
+                            <i class="fas fa-battery-full"></i>
+                            <div>
+                                <h4>Battery Acid</h4>
+                                <p>Battery acid is corrosive - handle with care and wear PPE</p>
+                            </div>
+                        </div>
+                        <div class="hazard-item">
+                            <i class="fas fa-wind"></i>
+                            <div>
+                                <h4>Confined Spaces</h4>
+                                <p>Ensure adequate ventilation when running engines</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="interactive-quiz">
+                    <h3><i class="fas fa-clipboard-check"></i> Safety Quick Check</h3>
+                    <div class="quiz-question">
+                        <p><strong>Q: What should you do before working on a vehicle's electrical system?</strong></p>
+                        <button class="quiz-option" data-correct="true">Disconnect the battery</button>
+                        <button class="quiz-option" data-correct="false">Start the engine</button>
+                        <button class="quiz-option" data-correct="false">Turn on the lights</button>
+                        <div class="quiz-feedback"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Components Section -->
+            <section id="components" class="content-section">
+                <h2><i class="fas fa-cogs"></i> Major Electrical Components</h2>
+                
+                <div class="card">
+                    <h3>The Battery</h3>
+                    <div class="component-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Autobatterie.jpg/640px-Autobatterie.jpg" alt="Car Battery" class="component-img">
+                        <div class="component-info">
+                            <h4>Purpose & Operation</h4>
+                            <p>The battery stores electrical energy as chemical energy and provides power to start the engine and run electrical systems when the engine is off.</p>
+                            <ul>
+                                <li><strong>Voltage:</strong> Typically 12V (cars) or 24V (trucks)</li>
+                                <li><strong>Function:</strong> Supplies power for starting and lighting</li>
+                                <li><strong>Maintenance:</strong> Check terminals for corrosion, test voltage</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> How a Car Battery Works</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/GzZPj0i7-7I" 
+                                title="Car Battery Explained" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Headlamps</h3>
+                    <div class="component-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/LED_headlight.jpg/640px-LED_headlight.jpg" alt="Headlamp" class="component-img">
+                        <div class="component-info">
+                            <h4>Purpose & Operation</h4>
+                            <p>Headlamps provide illumination for night driving and improve vehicle visibility.</p>
+                            <ul>
+                                <li><strong>Types:</strong> Halogen, LED, Xenon/HID</li>
+                                <li><strong>Function:</strong> Main beam and dipped beam</li>
+                                <li><strong>Maintenance:</strong> Replace bulbs, clean lenses, adjust aim</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Brake Lights</h3>
+                    <div class="component-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Brake_light.jpg/640px-Brake_light.jpg" alt="Brake Lights" class="component-img">
+                        <div class="component-info">
+                            <h4>Purpose & Operation</h4>
+                            <p>Brake lights alert following drivers when you're slowing down or stopping.</p>
+                            <ul>
+                                <li><strong>Activation:</strong> Triggered by brake pedal switch</li>
+                                <li><strong>Safety:</strong> Critical for preventing rear-end collisions</li>
+                                <li><strong>Legal:</strong> Must be functioning at all times</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Fuses</h3>
+                    <div class="component-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Blade_fuses.jpg/640px-Blade_fuses.jpg" alt="Automotive Fuses" class="component-img">
+                        <div class="component-info">
+                            <h4>Purpose & Operation</h4>
+                            <p>Fuses protect electrical circuits from overload by breaking the circuit when current exceeds safe levels.</p>
+                            <ul>
+                                <li><strong>Types:</strong> Blade fuses (mini, standard, maxi)</li>
+                                <li><strong>Ratings:</strong> Different amperage ratings (color-coded)</li>
+                                <li><strong>Location:</strong> Fuse boxes under dashboard and bonnet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Relays</h3>
+                    <div class="component-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Automotive_relay.jpg/640px-Automotive_relay.jpg" alt="Automotive Relay" class="component-img">
+                        <div class="component-info">
+                            <h4>Purpose & Operation</h4>
+                            <p>Relays are electrically operated switches that allow a small current to control a larger current.</p>
+                            <ul>
+                                <li><strong>Function:</strong> Acts as a remote-controlled switch</li>
+                                <li><strong>Benefits:</strong> Reduces current through switches, extends switch life</li>
+                                <li><strong>Common uses:</strong> Headlamps, horn, fuel pump, cooling fan</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Understanding Automotive Relays</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/60TLP_DTUCU" 
+                                title="How Relays Work" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="interactive-element">
+                    <h3><i class="fas fa-gamepad"></i> Component Matching Game</h3>
+                    <div class="matching-game">
+                        <p>Drag the components to match them with their descriptions:</p>
+                        <div id="matchingGame">
+                            <!-- Populated by JavaScript -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tools Section -->
+            <section id="tools" class="content-section">
+                <h2><i class="fas fa-tools"></i> Tools & Equipment</h2>
+                
+                <div class="card">
+                    <h3>Essential Hand Tools</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <i class="fas fa-wrench fa-3x"></i>
+                            <h4>Spanners & Sockets</h4>
+                            <p>For removing and tightening nuts and bolts</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-screwdriver fa-3x"></i>
+                            <h4>Screwdrivers</h4>
+                            <p>Flat head and Phillips for various screws</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-cut fa-3x"></i>
+                            <h4>Wire Cutters/Strippers</h4>
+                            <p>For cutting and stripping electrical wires</p>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-ruler fa-3x"></i>
+                            <h4>Test Light</h4>
+                            <p>Quick check for power in circuits</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card highlight">
+                    <h3><i class="fas fa-tachometer-alt"></i> Multi-meter (Digital Multimeter)</h3>
+                    <div class="tool-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Digital_Multimeter_Aka.jpg/640px-Digital_Multimeter_Aka.jpg" alt="Digital Multimeter" class="tool-img">
+                        <div class="tool-info">
+                            <h4>Purpose & Uses</h4>
+                            <p>A multi-meter is the most important diagnostic tool for electrical work. It can measure:</p>
+                            <ul>
+                                <li><strong>Voltage (V):</strong> Check battery voltage, circuit voltage</li>
+                                <li><strong>Current (A):</strong> Measure current flow in circuits</li>
+                                <li><strong>Resistance (Ω):</strong> Test for continuity, find breaks in wires</li>
+                            </ul>
+                            <div class="warning-box">
+                                <i class="fas fa-exclamation-triangle"></i>
+                                <p><strong>Important:</strong> Always select the correct function and range before testing!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> How to Use a Multimeter</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/TdUK6RPdIrA" 
+                                title="Multimeter Tutorial" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fas fa-fire fa-2x"></i> Soldering Iron</h3>
+                    <div class="tool-detail">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Soldering_iron.jpg/640px-Soldering_iron.jpg" alt="Soldering Iron" class="tool-img">
+                        <div class="tool-info">
+                            <h4>Purpose & Uses</h4>
+                            <p>Used for joining wires and terminals permanently by melting solder.</p>
+                            <ul>
+                                <li><strong>Temperature:</strong> Typically 350-400°C</li>
+                                <li><strong>Solder:</strong> Use electrical solder (60/40 tin/lead or lead-free)</li>
+                                <li><strong>Safety:</strong> Very hot! Use stand, work in ventilated area</li>
+                            </ul>
+                            <h5>Basic Soldering Steps:</h5>
+                            <ol>
+                                <li>Clean and tin the iron tip</li>
+                                <li>Heat the joint (not the solder)</li>
+                                <li>Apply solder to the joint</li>
+                                <li>Remove heat and let cool naturally</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Soldering Technique</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/Qps9woUGkvI" 
+                                title="How to Solder Wires" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="interactive-element">
+                    <h3><i class="fas fa-clipboard-list"></i> Tool Safety Checklist</h3>
+                    <div class="checklist">
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span>Inspect tools before use for damage</span>
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span>Ensure multi-meter is set to correct function</span>
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span>Check soldering iron stand is secure</span>
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span>Wear appropriate PPE</span>
+                        </label>
+                        <label class="checklist-item">
+                            <input type="checkbox">
+                            <span>Keep work area clean and organized</span>
+                        </label>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Procedures Section -->
+            <section id="procedures" class="content-section">
+                <h2><i class="fas fa-tasks"></i> Practical Procedures</h2>
+                
+                <div class="card">
+                    <h3><i class="fas fa-lightbulb"></i> Replacing a Headlamp Bulb</h3>
+                    <div class="procedure">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Safety First</h4>
+                                <p>Turn off ignition and lights. Allow bulb to cool if recently used.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Access the Bulb</h4>
+                                <p>Open bonnet and locate the back of the headlamp assembly. Remove access cover.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Disconnect</h4>
+                                <p>Unplug the electrical connector from the bulb base.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Remove Old Bulb</h4>
+                                <p>Release the retaining clip or turn anti-clockwise (depending on type) and remove bulb.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Install New Bulb</h4>
+                                <p>Handle new bulb by base only (not glass). Insert and secure with clip or turn clockwise.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">6</div>
+                            <div class="step-content">
+                                <h4>Test</h4>
+                                <p>Reconnect connector, replace access cover, and test the light works properly.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="warning-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p><strong>Warning:</strong> Never touch halogen bulb glass with bare hands - oils from skin can cause hot spots and premature failure!</p>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Headlamp Bulb Replacement</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/cXup5oJinTw" 
+                                title="How to Replace Headlight Bulb" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fas fa-car"></i> Replacing a Brake Light Bulb</h3>
+                    <div class="procedure">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Identify Fault</h4>
+                                <p>Have someone press brake pedal to confirm which bulb is faulty.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Access Point</h4>
+                                <p>Access usually from inside boot/tailgate. Remove access panel or trim.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Remove Bulb Holder</h4>
+                                <p>Turn bulb holder anti-clockwise and pull out.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Replace Bulb</h4>
+                                <p>Push in and turn anti-clockwise to remove old bulb. Install new bulb by reversing.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Test & Reassemble</h4>
+                                <p>Test brake lights work before replacing panels.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fas fa-plug"></i> Replacing a Fuse</h3>
+                    <div class="procedure">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Locate Fuse Box</h4>
+                                <p>Check owner's manual for fuse box location (usually under dashboard or bonnet).</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Identify Faulty Fuse</h4>
+                                <p>Use fuse box diagram to locate correct fuse. Visual inspection - blown fuse has broken metal strip.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Remove Fuse</h4>
+                                <p>Use fuse puller tool or needle-nose pliers to remove fuse.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Install Correct Replacement</h4>
+                                <p>Ensure replacement fuse is SAME amperage rating (check color and number).</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Test Circuit</h4>
+                                <p>Test the affected circuit. If fuse blows again, there's likely a short circuit - investigate further.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="warning-box">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <p><strong>Critical:</strong> NEVER use a higher amperage fuse - this can cause fire! Always use correct rating.</p>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3><i class="fas fa-battery-full"></i> Battery Removal & Replacement</h3>
+                    <div class="procedure">
+                        <div class="step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h4>Safety Preparation</h4>
+                                <p>Turn off ignition, remove keys. Wear gloves and eye protection.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h4>Disconnect NEGATIVE First</h4>
+                                <p>Always disconnect negative (-) terminal FIRST to prevent shorts.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h4>Disconnect Positive</h4>
+                                <p>Remove positive (+) terminal clamp.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">4</div>
+                            <div class="step-content">
+                                <h4>Remove Hold-Down</h4>
+                                <p>Remove battery hold-down clamp or bracket.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">5</div>
+                            <div class="step-content">
+                                <h4>Lift Out Battery</h4>
+                                <p>Lift battery straight up - batteries are heavy, use proper lifting technique!</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">6</div>
+                            <div class="step-content">
+                                <h4>Install New Battery</h4>
+                                <p>Place new battery, secure hold-down. Connect positive FIRST, then negative.</p>
+                            </div>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">7</div>
+                            <div class="step-content">
+                                <h4>Check Voltage</h4>
+                                <p>Use multi-meter to check battery voltage (should be 12.4-12.8V when fully charged).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="video-container">
+                    <h3><i class="fas fa-video"></i> Battery Testing and Replacement</h3>
+                    <div class="video-wrapper">
+                        <iframe src="https://www.youtube.com/embed/vIFJN_m99q8" 
+                                title="How to Test and Replace Car Battery" 
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="card highlight">
+                    <h3><i class="fas fa-clipboard-check"></i> Examination Methods</h3>
+                    <div class="examination-methods">
+                        <div class="method-item">
+                            <i class="fas fa-ear-listen fa-2x"></i>
+                            <h4>Aural</h4>
+                            <p>Listen for unusual sounds like clicking relays, buzzing, or arcing</p>
+                        </div>
+                        <div class="method-item">
+                            <i class="fas fa-eye fa-2x"></i>
+                            <h4>Visual</h4>
+                            <p>Look for damaged wires, corroded terminals, broken components, blown fuses</p>
+                        </div>
+                        <div class="method-item">
+                            <i class="fas fa-check-circle fa-2x"></i>
+                            <h4>Functional</h4>
+                            <p>Test if components work as designed - lights illuminate, switches operate correctly</p>
+                        </div>
+                        <div class="method-item">
+                            <i class="fas fa-tachometer-alt fa-2x"></i>
+                            <h4>Measurements</h4>
+                            <p>Use multi-meter to measure voltage, current, and resistance</p>
+                        </div>
+                        <div class="method-item">
+                            <i class="fas fa-balance-scale fa-2x"></i>
+                            <h4>Comparisons</h4>
+                            <p>Compare readings with specifications in service manual</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Quiz Section -->
+            <section id="quiz" class="content-section">
+                <h2><i class="fas fa-question-circle"></i> Knowledge Check</h2>
+                
+                <div class="card">
+                    <h3>Test Your Understanding</h3>
+                    <p>Answer these questions to check your learning:</p>
+                </div>
+
+                <div id="quizContainer">
+                    <!-- Quiz questions will be populated by JavaScript -->
+                </div>
+
+                <div class="quiz-score" id="quizScore" style="display: none;">
+                    <h3>Your Score</h3>
+                    <div class="score-display">
+                        <span id="scoreValue">0</span>
+                        <span>/</span>
+                        <span id="totalQuestions">0</span>
+                    </div>
+                    <p id="scoreMessage"></p>
+                    <button class="btn-primary" onclick="resetQuiz()">
+                        <i class="fas fa-redo"></i> Try Again
+                    </button>
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Vehicle Maintenance Training | Entry Level 3 | Unit 3902-005</p>
+            <p>Interactive Learning Application</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
